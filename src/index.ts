@@ -9,7 +9,7 @@ ProductDetails(10);
 ProductDetails(10, "Mobile");
 
 interface ProductContract {
-    Name: string;
+    readonly Name: string;
     Price: number;
     Stock: boolean;
     Qty: number;
@@ -23,4 +23,3 @@ let product: ProductContract = {
     Qty: 5
 }
 console.log(product);
-product.Name = "LED TV";
