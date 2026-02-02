@@ -36,10 +36,10 @@ interface Bank_Version2 extends Bank_Version1 {
 }
 let bank_legacy:Bank_Version1 = {
     NRI: "Abc",
-    Personal: "jdj"
+    Personal: "lmn"
 }
 let bank_new:Bank_Version2 = {
     NRI: "xyz",
-    Personal: "dhfb",
+    Personal: "jkl",
     Loan: true
 }

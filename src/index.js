@@ -18,10 +18,10 @@ var product = {
 console.log(product);
 var bank_legacy = {
     NRI: "Abc",
-    Personal: "jdj"
+    Personal: "lmn"
 };
 var bank_new = {
     NRI: "xyz",
-    Personal: "dhfb",
+    Personal: "jkl",
     Loan: true
 };
