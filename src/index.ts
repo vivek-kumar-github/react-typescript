@@ -43,3 +43,24 @@ let bank_new:Bank_Version2 = {
     Personal: "jkl",
     Loan: true
 }
+
+//Static and non-static members
+class StaticNonStatic {
+    static s = 0;
+    n = 0;
+    constructor() {
+        StaticNonStatic.s = StaticNonStatic.s + 1;
+        this.n = this.n + 1;
+    }
+    Print() {
+        console.log(`s = ${StaticNonStatic.s} n = ${this.n}`);
+    }
+
+}
+
+let obj1 = new StaticNonStatic();
+obj1.Print();
+let obj2 = new StaticNonStatic();
+obj2.Print();
+let obj3 = new StaticNonStatic();
+obj3.Print();
