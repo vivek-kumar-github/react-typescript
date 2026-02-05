@@ -25,6 +25,7 @@ let now: any = new Date();
 console.log(`
     Month : ${now.getMonth()}\n
     Weekday : ${now.getDay()}\n
+    ${Weekdays.Monday}
     `)
 
 //enum Reverse Mapping 

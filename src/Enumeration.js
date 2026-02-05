@@ -24,6 +24,6 @@ var Months;
     Months[Months["Dec"] = 11] = "Dec";
 })(Months || (Months = {}));
 var now = new Date();
-console.log("\n    Month : ".concat(now.getMonth(), "\n\n    Weekday : ").concat(now.getDay(), "\n\n    "));
+console.log("\n    Month : ".concat(now.getMonth(), "\n\n    Weekday : ").concat(now.getDay(), "\n\n    ").concat(Weekdays.Monday, "\n    "));
 //enum Reverse Mapping 
 console.log("\n    Weekday: ".concat(Weekdays[now.getDay()], "\n\n    Month: ").concat(Months[now.getMonth()], "\n    "));
